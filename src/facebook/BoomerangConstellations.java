@@ -4,15 +4,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class BoomerangConstellations {
-
-	public static void main(String[] args) {
-		final int N = 6;
-		final int[] X = {5,6,7,6,7,8};
-		final int[] Y = {6,5,6,7,8,7};
-		
-		System.out.println(getBoomerangCount(N, X, Y));
-		
-	}
 	
 	static int getBoomerangCount(final int N, final int[] X, final int[] Y) {
 		int total = 0;
