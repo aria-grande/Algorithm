@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import etc.DFS;
+
 
 public class DFSTest {
 
